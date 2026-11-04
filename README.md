@@ -14,10 +14,12 @@ pnpm deploy
 Add a file to `routes/` to add an endpoint:
 
 ```tsx
-// routes/index.tsx → GET /
+// routes/about.tsx → GET /
 import { defineHandler } from 'void'
 
-export const GET = defineHandler((c) => c.html(<h1>Hello Hono!</h1>))
+export const GET = defineHandler((c) => {
+  return c.html(<h1>I'm Hono</h1>)
+})
 ```
 
 Docs: `node_modules/void/docs/`
