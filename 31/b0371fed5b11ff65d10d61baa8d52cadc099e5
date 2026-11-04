@@ -1,0 +1,21 @@
+pnpm-workspace.yaml
+  s_262b9a9c332f02::t_eb31486745bc9c 1-7
+tsconfig.json
+  s_262b9a9c332f02::t_6f6104ae879f41 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "31b0371fed5b11ff65d10d61baa8d52cadc099e5",
+  "prompts": {},
+  "sessions": {
+    "s_262b9a9c332f02": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "167ffba4-b543-4586-b4c3-85c6ff66f489",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "Yusuke Wada <yusuke@kamawada.com>"
+    }
+  }
+}
